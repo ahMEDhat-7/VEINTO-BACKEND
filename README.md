@@ -1,20 +1,20 @@
-# 🧠 VIENTO Backend – E-commerce API
+#  VIENTO
 
-This is the backend for **VIENTO**, a modern e-commerce platform for selling hats and accessories. It provides a secure, scalable REST API built with **Node.js**, **Express**, **TypeScript**, and **MySQL** using an ORM like **Prisma** or **TypeORM**.
+This is the backend for **VIENTO**, a modern e-commerce platform for selling hats and accessories. It provides a secure, scalable REST API.
 
 ---
 
 ## 🚀 Tech Stack
 
 - **Runtime**: Node.js (TypeScript)
-- **Framework**: Express.js
-- **Database**: MySQL
-- **ORM**: Prisma or TypeORM
+- **Framework**: NestJs
+- **Database**: MongoDB
+- **ORM**: Mongoose
 - **Authentication**: JWT (access & refresh tokens)
-- **File Uploads**: Cloudinary / Amazon S3
-- **Validation**: Zod or class-validator
+- **File Uploads**: Cloudinary
+- **Validation**: class-validator
 - **Security**: Helmet, rate limiting, CORS
-- **Logging**: Morgan + Winston
+- **Logging**: Morgan
 
 ---
 
@@ -83,5 +83,6 @@ This is the backend for **VIENTO**, a modern e-commerce platform for selling hat
 - Inventory alerts
 
 
+---
 # 📄 License
 - MIT License
