@@ -8,7 +8,7 @@ export class UsersProvider {
 
   constructor(@InjectModel(User.name) private readonly userModel: Model<User>) { }
 
-  findByName(username: string) {
+  async findByName(username: string) {
     return this.userModel.findOne({ $where: username });
   }
 

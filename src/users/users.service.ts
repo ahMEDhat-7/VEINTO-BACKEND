@@ -9,6 +9,7 @@ import { Model } from 'mongoose';
 export class UsersService {
   constructor(@InjectModel(User.name) private readonly userModel: Model<User>) { }
   create(createUserDto: CreateUserDto) {
+    // hash password
     return 'This action adds a new user';
   }
 
